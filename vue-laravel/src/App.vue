@@ -14,11 +14,11 @@
       <div class="col s12 m4 l3 blue-grey padding-top" id="left-side">
         <div class="valign-wrapper">
           <div class="col" layout="row">
-            <img src="https://www.gravatar.com/avatar/" alt="Fulano" class="circle">
+            <img src="https://www.gravatar.com/avatar/beef4a109b5744b8b51537c0136f7e3b" alt="Erik Figueiredo" class="circle">
           </div>
           <div>
             <p>
-              <span class="grey-text text-lighten-2">Fulano</span><br>
+              <span class="grey-text text-lighten-2">Erik Figueiredo</span><br>
               <a href="#" class="black-text"><small>configurações <i class="ion-gear-a"></i></small></a>
             </p>
           </div>
@@ -27,6 +27,7 @@
         <div class="collection">
           <a href="#/" class="collection-item grey darken-2 white-text">Financeiro</a>
           <a href="#/contas" class="collection-item">Contas</a>
+          <a href="#/bancos" class="collection-item">Bancos</a>
         </div>
       </div>
       <div class="col s12 m8 l9 grey lighten-3" id="right-side">

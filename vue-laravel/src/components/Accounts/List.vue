@@ -27,6 +27,7 @@
             </tr>
           </tbody>
         </table>
+        <pagination totalPerPage="25" resource="accounts"></pagination>
       </div>
       <div class="card-action">
         <a href="#/contas/novo">Nova conta</a>
@@ -36,8 +37,13 @@
 </template>
 
 <script>
+import Pagination from './../SharedComponents/Pagination'
+
 export default {
   name: 'accounts',
+  components: {
+    'pagination': Pagination
+  },
   methods: {
     goTo: function (id) {
       this.$router.push('/contas/' + id)
@@ -45,11 +51,8 @@ export default {
   },
   computed: {
     accounts () {
-      return this.$store.state.account.accountList
+      return this.$store.state.pagination.getList
     }
-  },
-  created () {
-    this.$store.dispatch('getAccounts')
   }
 }
 </script>
